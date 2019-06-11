@@ -1,0 +1,14 @@
+/* Import Oxygen from Google fonts (light, regular, bold) */
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+header {
+  background-image: url(pencils.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

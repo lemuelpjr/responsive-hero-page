@@ -98,6 +98,23 @@ label,
 @media only screen and (max-width: 476px) {
   #nav-menu {
     display: none;
+    top: 5rem;
+    background-color: #F3742E;
+    height: 80vh;
+    width: 65%;
+    right: 0;
+    text-align: right;
+  }
+
+  #nav-menu a {
+    color: #EAE8EB !important;
+    display: block;
+    margin-right: 20px;
+    padding: 8px 0;
+  }
+
+  .active {
+  font-weight: normal;
   }
 
   label {
@@ -107,6 +124,10 @@ label,
   position: absolute;
   top: 5px;
   right: 20px;
+  }
+
+  #toggle:checked + #nav-menu {
+    display: block;
   }
 
   #cta-1 {

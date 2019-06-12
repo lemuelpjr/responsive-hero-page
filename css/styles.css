@@ -88,3 +88,26 @@ header {
 #cta-2:hover {
   color: #F3742E;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 400px) {
+  #cta-1 {
+    font-size: 1.6rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 18rem;
+  }
+
+  #cta-2 {
+    background-color: rgba(234, 232, 235, 0.8);
+    font-size: 1.6rem;
+    display: block;
+    max-width: 18rem;
+    margin: 0 auto;
+  }
+
+  #showcase h1 {
+  font-size: 3.6rem;
+  margin-bottom: 5rem;
+}
+}

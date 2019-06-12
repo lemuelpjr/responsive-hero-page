@@ -21,6 +21,11 @@ header {
 }
 
 /* NAVIGATION MENU */
+label,
+#toggle {
+  display: none; /* Hides mobile menu */
+}
+
 #nav-menu {
   list-style-type: none;
   position: absolute;
@@ -90,7 +95,20 @@ header {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 476px) {
+  #nav-menu {
+    display: none;
+  }
+
+  label {
+  color: #F3742E;
+  font-size: 3rem;
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  }
+
   #cta-1 {
     font-size: 1.6rem;
     display: block;
